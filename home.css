@@ -1,0 +1,63 @@
+body {
+    background: #180b54;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8be2f1;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+
+    margin-top: 25px;
+}
+
+.nav-items {
+    padding: 0px 18px;
+}
+
+.nav-items a {
+    display: block;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items a:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: grey;
+    opacity: 0.8;
+}
+
+#home-oshi{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+.photos {
+    height: auto;
+    max-width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    padding: 10px;
+    color: #8be2f1;
+    background-color: black;
+    margin: 5px;
+}
